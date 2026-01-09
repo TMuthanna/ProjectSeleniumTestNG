@@ -15,6 +15,7 @@ public class RegPage {
 	By DoNotConsent = By.cssSelector("[aria-label='Do not consent']");
 	By FirstName = By.cssSelector("[placeholder='First Name']");
 	By LastName = By.cssSelector("[placeholder='Last Name']");
+	By Address = By.cssSelector("[ng-model='Adress']");
 
 	Genericfunctions ObjGenericfunctions = new Genericfunctions();
 
@@ -22,6 +23,7 @@ public class RegPage {
 		ObjGenericfunctions.Click(driver, DoNotConsent);
 		ObjGenericfunctions.Sendkeys(driver, FirstName, "Sham");
 		ObjGenericfunctions.Sendkeys(driver, LastName, "Naik");
-
+		ObjGenericfunctions.Sendkeys(driver, Address, "Curchorem");
+			
 	}
 }
