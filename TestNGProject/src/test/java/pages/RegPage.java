@@ -13,7 +13,7 @@ public class RegPage {
 	}
 
 	By DoNotConsent = By.cssSelector("[aria-label='Do not consent']");
-	By FirstName = By.cssSelector("[placeholder='First Name']");
+	By FirstName = By.cssSelector("[ng-model='FirstName']");
 	By LastName = By.cssSelector("[placeholder='Last Name']");
 
 	Genericfunctions ObjGenericfunctions = new Genericfunctions();
