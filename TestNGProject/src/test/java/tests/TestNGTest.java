@@ -9,6 +9,10 @@ public class TestNGTest {
 
 	@Test
 	public void Login() {
+		// Added lines to see the conflicts
+		// Added lines to see the conflicts
+		// Added lines to see the conflicts
+		// Added lines to see the conflicts		
 		WebDriver driver = WebDriverManager.chromedriver().avoidShutdownHook().create();
 		driver.get("https://demo.automationtesting.in/Register.html");
 		driver.manage().window().maximize();
